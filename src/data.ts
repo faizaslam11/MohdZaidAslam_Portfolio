@@ -1,3 +1,5 @@
+import profileImageFile from "./assets/images/profile.png";
+
 export interface PersonalInfo {
   name: string;
   titles: string[];
@@ -50,7 +52,7 @@ export const personalInfo: PersonalInfo = {
   email: "zaidaslam195@gmail.com",
   linkedin: "https://linkedin.com/in/mohd-zaid-aslam-195b0b230", // standard template LinkedIn or placeholder
   summary: "Industrial Chemistry graduate (B.Sc. Hons., AMU) currently pursuing M.Sc. Industrial Chemistry, with hands-on training in IR/UV-Vis spectroscopy, petroleum and petrochemical testing, and pharmaceutical production under GMP standards. Practical exposure across renewable energy, waste management, and Unani pharmaceutical manufacturing sectors through structured internships and CSIR-recognized skill development programs. Seeking Quality Control / Analytical Chemist roles in India and abroad, with a strong foundation in laboratory analysis, instrumentation, and industrial quality compliance.",
-  profileImage: "/src/assets/images/profile.png",
+  profileImage: profileImageFile,
   resumeDownloadUrl: "#" // Will be handled beautifully via dynamic print or interactive PDF generator, or pre-made view
 };
 
